@@ -1,16 +1,16 @@
 @font-face {
   font-family: boldfont;
-  src: url(/home/settipalli/Downloads/FCI Intern/multi-step-form-main/assets/fonts/Ubuntu-Bold.ttf);
+  src: url(/assets/fonts/Ubuntu-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
   font-family: mediumfont;
-  src: url(/home/settipalli/Downloads/FCI Intern/multi-step-form-main/assets/fonts/Ubuntu-Medium.ttf);
+  src: url(/assets/fonts/Ubuntu-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: regularfont;
-  src: url(/home/settipalli/Downloads/FCI Intern/multi-step-form-main/assets/fonts/Ubuntu-Regular.ttf);
+  src: url(/assets/fonts/Ubuntu-Regular.ttf);
   font-weight: 400;
 }
 * {
@@ -43,7 +43,7 @@ section {
   margin: 20px;
 }
 aside {
-  background-image: url("/home/settipalli/Downloads/FCI Intern/multi-step-form-main/assets/images/bg-sidebar-desktop.svg");
+  background-image: url("/assets/images/bg-sidebar-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
   left: 0px;
@@ -524,7 +524,7 @@ input:checked + .slider::before {
     margin: 0px;
     width: 100%;
     height: 30%;
-    background-image: url("/home/settipalli/Downloads/FCI Intern/multi-step-form-main/assets/images/bg-sidebar-mobile.svg");
+    background-image: url("/assets/images/bg-sidebar-mobile.svg");
     padding-bottom: 20px;
   }
   .steps,
